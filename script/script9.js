@@ -3,6 +3,7 @@ const x = document.querySelectorAll('.close');
 const sBiru = document.querySelector('input[name=sBiru]');
 const sHijau = document.querySelector('input[name=sHijau]');
 const sMerah = document.querySelector('input[name=sMerah]');
+const popup = document.querySelector('button');
 
 const acakWarna = document.createElement('button');
 const textAcakWarna = document.createTextNode('acakWarna');
@@ -41,5 +42,9 @@ const textAcakWarna = document.createTextNode('acakWarna');
             const b = sBiru.value;
             document.body.style.backgroundColor = 'rgb('+r+','+g+','+b+')';
             
+    });
+
+    popup.addEventListener('dblclick', function(){
+        alert('hai ini tombol alert nya!');
     });
        
