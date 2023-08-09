@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&display=swap');
 
-/* Reset default styles for ul and li */
 ul, li {
     list-style: none;
     margin: 0;
@@ -148,3 +147,4 @@ color: lightcoral;
     font-size: 14px;
   
   }
+
